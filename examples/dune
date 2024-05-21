@@ -1,0 +1,3 @@
+(executables
+ (names square)
+ (libraries while))
