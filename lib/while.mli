@@ -46,4 +46,4 @@ val ( let* ) : 'a variable * unit t -> ('a variable -> unit t) -> unit t
 val new_var : string -> 'a t -> 'a variable * unit t
 (* Create a new variable with an initial value *)
 
-val run_and_print_store : Format.formatter -> unit t -> unit
+val run_and_print_store : Format.formatter -> 'a t -> unit
